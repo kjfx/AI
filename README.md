@@ -21,3 +21,29 @@ C:\Users\用户名\.local\bin\
 ### 三、使用其他模型Qwen/Deepseek api：
 - [Qwen](https://bailian.console.aliyun.com/)
 - [Deepseek](https://platform.deepseek.com/usage)
+
+### 四、Claude Code 接入大模型
+1、将 Claude Code 对接 Qwen 模型<br>
+打开命令行（Win+R 输入 cmd 回车）
+
+    setx ANTHROPIC_API_KEY "API_KEY"
+    setx ANTHROPIC_BASE_URL "https://dashscope.aliyuncs.com/apps/anthropic"
+    setx ANTHROPIC_MODEL "qwen3.6-flash-2026-04-16"
+
+2、将 Claude Code 对接 Deepseek 模型<br>
+打开命令行（Win+R 输入 cmd 回车）
+
+    setx ANTHROPIC_API_KEY "API_KEY"
+    setx ANTHROPIC_BASE_URL "https://api.deepseek.com/anthropic"
+    setx ANTHROPIC_MODEL "deepseek-chat"
+
+3、查看参数是否设置成功（注意要关闭 cmd 重新启动后输入）:
+
+    echo %ANTHROPIC_API_KEY%
+    echo %ANTHROPIC_BASE_URL%
+    echo %ANTHROPIC_MODEL%
+
+
+   
+
+
