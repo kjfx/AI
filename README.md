@@ -1,4 +1,5 @@
 # Claude Code 零基础入门教程，claude code 大陆如何使用，使用其他模型qwen/deepseek api 大模型
+Claude Code使用教程：https://youtu.be/COQ2GPhxNbM
 
 ### 一、准备工作：
 1、大陆需准备科学网络环境，可以使用 [Clash Verge](https://github.com/clash-verge-rev/clash-verge-rev/releases/latest) 或 [v2rayN](https://github.com/2dust/v2rayN/releases/latest) 等，配合
