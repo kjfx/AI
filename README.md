@@ -36,7 +36,7 @@ C:\Users\用户名\.local\bin\
 
     setx ANTHROPIC_API_KEY "API_KEY"
     setx ANTHROPIC_BASE_URL "https://api.deepseek.com/anthropic"
-    setx ANTHROPIC_MODEL "deepseek-chat"
+    setx ANTHROPIC_MODEL "deepseek-v4-flash"
 
 3、查看参数是否设置成功（注意要关闭 cmd 重新启动后输入）:
 
