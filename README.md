@@ -48,7 +48,7 @@ C:\Users\用户名\.local\bin\
 ## Claude Code 对接本地模型，完全免费使用
 视频教程：https://youtu.be/QcJQT5vfJ3w
 
-1、启动 Ollama，运行模型
+1、启动 Ollama，运行模型<br>
 打开命令行（Win+R 输入 cmd 回车）
 
     ollama run qwen3.5:9b-q4_K_M
