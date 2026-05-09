@@ -45,6 +45,22 @@ C:\Users\用户名\.local\bin\
     echo %ANTHROPIC_MODEL%
 
 
-   
+## Claude Code 对接本地模型，完全免费使用
+视频教程：https://youtu.be/QcJQT5vfJ3w
+
+1、启动 Ollama，运行模型
+打开命令行（Win+R 输入 cmd 回车）
+
+    ollama run qwen3.5:9b-q4_K_M
+
+
+2、将 Claude Code 对接本地模型
+
+    setx ANTHROPIC_API_KEY "ollama"
+    setx ANTHROPIC_BASE_URL "http://127.0.0.1:11434"
+    setx ANTHROPIC_MODEL "qwen3.5:9b-q4_K_M"
+
+*模型名称需要和你当前运行的模型名称一致，运行"ollama list"可以查看模型列表。
+
 
 
