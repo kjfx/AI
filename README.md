@@ -62,5 +62,7 @@ C:\Users\用户名\.local\bin\
 
 *模型名称需要和你当前运行的模型名称一致，运行"ollama list"可以查看模型列表。
 
+3、关闭 cmd 窗口，重新运行"claude"命令
+
 
 
